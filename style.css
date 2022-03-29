@@ -7,3 +7,49 @@
   font-family: "Poppins";
 }
 
+body {
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    display:flex;
+    
+}
+
+.header {
+    font-size:50px;
+    font-weight:bold;
+    color:grey;
+
+}
+
+h2 {
+    font-size:70px;
+    color:grey
+}
+
+.code,
+.key,
+.which {
+    margin:50px;
+    font-weight:bold;
+    font-size:22px;
+    color:grey
+}
+
+#displayCode,
+#displayKey,
+#displayWhich,
+#mainDisplay {
+    color:green;
+
+}
+    
+
+

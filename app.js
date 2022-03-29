@@ -8,7 +8,7 @@ document.addEventListener("keydown" , (action) =>{
 	const keyCode = action.code;
 	const keyWhich = action.which;
 
-	mainDisplay.innerHTML = `${keyDown}`
+	mainDisplay.innerHTML = `${keyWhich}`
 	displayCode.innerHTML = `${keyCode}`
 	displayKey.innerHTML = `${keyDown}`
 	displayWhich.innerHTML = `${keyWhich}`
